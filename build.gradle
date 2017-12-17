@@ -38,3 +38,7 @@ dependencies {
 	compile("org.webjars:jquery:3.1.0")
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
+
+bootRun {
+	main = 'com.example.websocket.demo.DemoApplication'
+}
